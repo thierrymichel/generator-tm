@@ -6,11 +6,13 @@ var generators = require('yeoman-generator');
 module.exports = generators.Base.extend({
   gulpfile: function () {
     // this.template('gulpfile.js'); // .template if <% %> used
-    this.copy('gulpfile.js');
+    // this.copy('gulpfile.js');
+    this.copy('gulp/gulpfile.js', 'gulpfile.js');
   },
 
   packageJSON: function () {
-    this.copy('_package.json', 'package.json');
+    // this.copy('_package.json', 'package.json');
+    this.copy('gulp/package.json', 'package.json');
   },
 
   git: function () {
