@@ -124,12 +124,13 @@ module.exports = yeoman.generators.Base.extend({
     this.mkdir('dev/scripts');
     this.mkdir('dev/styles');
     this.mkdir('dev/images');
-    // this.write('dev/index.html', this.indexFile);
 
     this.template('main.scss', 'dev/styles/main.scss');
     this.copy('main.js', 'dev/scripts/main.js');
 
     this.directory('partials', 'dev/styles');
+
+    this.copy('htaccess', '.htaccess');
   },
 
   install: function () {
