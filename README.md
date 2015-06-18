@@ -1,5 +1,35 @@
 # generator-tm
+
 Personal yeoman generator
+
+Include Sass, Modernizr, jQuery, Sass grid systems (Neat ou Susy) and Gulpfile for building stuff…
+
+## Usage
+
+```bash
+$ yo tm [appname]
+```
+
+## Architecture
+
+```bash
+projectname/
+   \_ vhost/
+        |- dev/
+        |    |- images/
+        |    |- scripts/
+        |    |    |- lib/
+        |    |    |- vendor/
+        |    |    |      |- jquery.min.js
+        |    |    |      \_ custom.modernizr.min.com
+        |    |    \_ main.js
+        |    \- styles
+        |         |- base/
+        |         |- vendor/
+        |         |- …/
+        |         \_ main.scss
+        \_ htdocs/
+```
 
 -----
 
