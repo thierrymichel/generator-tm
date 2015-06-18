@@ -1,2 +1,26 @@
+// helpers
+
+
+// vendor<% if (includeNeat) { %>
+@import 'vendor/bourbon/bourbon';
+@import 'vendor/neat/neat';<% } %>
+<% if (includeSusy) { %>
+@import 'vendor/susy/susy';<% } %>
+
+// base
 @import 'base/normalize';
 @import 'base/reset';
+
+
+// layout
+
+
+// themes
+
+
+// components
+
+
+// _shame.scss
+
+
