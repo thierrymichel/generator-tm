@@ -6,8 +6,23 @@ Include Sass, Modernizr, jQuery, Sass grid systems (Neat ou Susy) and Gulpfile f
 
 ## Usage
 
+### Install
+
 ```bash
 $ yo tm [appname]
+$ gulp yo
+```
+
+### Dev
+
+```bash
+$ gulp (default)
+```
+
+### Build
+
+```bash
+$ gulp build
 ```
 
 ## Architecture
