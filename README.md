@@ -4,13 +4,20 @@ Personal yeoman generator
 
 Include Sass, Modernizr, jQuery, Sass grid systems (Neat ou Susy) and Gulpfile for building stuff…
 
+## Getting started
+
+```bash
+$ git clone https://github.com/thierrymichel/generator-tm.git
+$ npm link
+```
+
 ## Usage
 
-### Install
+### Install project + init
 
 ```bash
 $ yo tm [appname]
-$ gulp yo
+$ gulp init
 ```
 
 ### Dev
