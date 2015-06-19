@@ -36,21 +36,25 @@ $ gulp build
 
 ```bash
 projectname/
-   \_ vhost/
-        |- dev/
-        |    |- images/
-        |    |- scripts/
-        |    |    |- lib/
-        |    |    |- vendor/
-        |    |    |      |- jquery.min.js
-        |    |    |      \_ custom.modernizr.min.com
-        |    |    \_ main.js
-        |    \- styles
-        |         |- base/
-        |         |- vendor/
-        |         |- …/
-        |         \_ main.scss
-        \_ htdocs/
+   |- vhost/
+   |    |- dev/
+   |    |- images/
+   |    |    |- scripts/
+   |    |    |    |- lib/
+   |    |    |    |- vendor/
+   |    |    |    |    |- jquery.min.js
+   |    |    |    |    \_ custom.modernizr.min.com
+   |    |    |    \_ main.js
+   |    |    \_ styles
+   |    |         |- base/
+   |    |         |- vendor/
+   |    |         |- …/
+   |    |         \_ main.scss
+   |    |- htdocs/
+   |    \_ (devtools: git, gulp, npm, bower,…)
+   |- sources/
+   |- work/
+   \_ …/
 ```
 
 -----
