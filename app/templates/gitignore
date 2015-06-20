@@ -79,6 +79,8 @@ node_modules
 .sass-cache
 *.css.map
 
+### Custom ALL ###
+.tmp
 
 ### Custom BUILD ###
 # dev
